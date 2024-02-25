@@ -17,11 +17,17 @@ For more information consider one of the following links.
 
 [Back to top](#awsm)
 
-## Modes
-Toggle between Database
+Click on top left button to toggle between database and performance mode.
 
-## Views
+Views are columns that can be navigated independently.
 
+Global settings are located in the Session Settings.
+
+A Session can contain multiple Channels with multiple individual Voices. Every Voice can be modulated by Oscillatos.
+
+Double click to add or remove additional WaveSplinePoints to a WaveSplineGraph.
+
+This is an early beta. At some point You'll probably loose all your data. Your songs might sound different with the next update.
 
 # Developer guide
 
