@@ -1,0 +1,41 @@
+:host {
+    font-family: sans-serif;
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 228px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: column;
+    cursor: pointer;
+}
+canvas { 
+    display:flex;
+    height: 204px;
+    touch-action: none;
+}
+
+.header {
+    display: flex;
+    font-size: 9px;
+    margin-left: 6px;
+    margin-right: 6px;
+    min-height: 12px;
+    color: rgb(128,128,128);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    font-size: 9px;
+    margin-left: 6px;
+    margin-right: 6px;
+    min-height: 12px;
+    color: rgb(128,128,128);
+    flex-direction: row;
+    justify-content: space-between;
+}

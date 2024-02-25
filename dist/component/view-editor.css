@@ -1,0 +1,59 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 102px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;   
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.status-indicator{
+    height: 6px;
+    background-color: #121212;
+    margin-right: 12px;
+
+}
+
+.status-indicator.active {
+    background-color: #FFFFFF;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 6px 0px 6px 0px;
+    padding-right: 6px;
+    gap: 6px;
+    flex: 1;    
+}
+
+/* Style the scrollbar background */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: #000000;
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 0px;
+}
+
+.mix {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+    max-width: 100%;
+}

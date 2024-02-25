@@ -1,0 +1,35 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.navigation {
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.row {
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+}
+.toolbar {
+    display: flex;
+    flex-direction: row;
+}
+
+awsm-wave-spline-graph {
+    flex: 1;
+}
+
+canvas {
+    display:flex;
+}

@@ -1,0 +1,75 @@
+:host {
+    user-select: none;
+    display: flex;
+    width: 186px;
+
+    height: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: space-between;
+    background-color: #121212;
+    color: #909090;
+    cursor: pointer;
+}
+:host(.active){
+    background-color: #FFFFFF;
+    color: #000000;
+}
+canvas {
+    width: 186px;
+    height: 72px;
+    image-rendering: crisp-edges;
+}
+.container {
+    width: 186px;
+    padding: 6px;
+    height: 72px;
+    display: flex;
+    gap: 2px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    flex-wrap: wrap;
+    align-content: center;
+    word-wrap: break-word;
+    white-space: normal;
+
+}
+
+.id {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 9px;
+    word-wrap: unset;
+    text-overflow: ellipsis;
+    white-space: normal;
+    white-space: nowrap;
+
+}
+.date {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 9px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+    flex: 1;
+}
+
+.channels {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 9px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    white-space: normal;
+
+}

@@ -1,0 +1,78 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 102px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;   
+    max-width: 100%;
+    flex-direction: row;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 6px 6px 0px 0px;
+    gap: 6px;
+    flex: 1;    
+}
+
+.hscroll {
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+/* Style the scrollbar background */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: #000000;
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #313131;
+    border-radius: 0px;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    gap: 6px;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;    
+    gap: 6px;
+    width: 102px;
+}
+
+.navigation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-right: 6px;
+}
+
+awsm-view-editor {
+    display: flex;
+    flex: 1;
+}
+.status-indicator{
+    height: 6px;
+    background-color: #121212;
+    margin-right: 12px;
+
+}
+
+.status-indicator.active {
+    background-color: #FFFFFF;
+}

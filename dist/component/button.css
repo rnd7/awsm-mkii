@@ -1,0 +1,120 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 90px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+:host(.wrap) {
+    flex-basis: 100%;
+    margin-top:-6px;
+}
+
+:host(.invisible) {
+    margin-top:-6px;
+    min-height: 0;
+    height: 0;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    width: 90px;
+    height: 72px;
+    border: none;
+    color:#909090;
+    background-color: #121212;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 6px;
+    margin: 0;
+}
+
+button.active {
+    color: rgb(63,63,63);
+    background-color:rgb(255,255,255);
+
+}
+
+button.insert {
+    color: rgb(0,0,0);
+    background-color: #446b85;
+
+}
+
+button.delete {
+    color: rgb(0,0,0);
+    background-color: #c9b02e;
+
+}
+
+button.solo {
+    color: rgb(0,0,0);
+    background-color: #9e1500;
+
+}
+
+button.path {
+    color:rgb(255,255,255);
+    background-color: #343435;
+
+}
+
+button.logo {
+    color: rgb(255,255,255);
+    background-color: #112233;
+
+}
+
+button.toggle {
+    color:#909090;
+    background: none;
+}
+
+button.toggle .label {
+    color:rgb(255,255,255);
+}
+
+button.inactive {
+    color:#909090;
+    background: none;
+    cursor: default;
+}
+
+
+.label {
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+.header {
+    display: flex;
+    font-size: 9px;
+    min-height: 12px;
+    line-height: 12px;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    align-self: flex-start;
+    overflow: hidden;
+}
+
+.footer {
+    display: flex;
+    font-size: 9px;
+    min-height: 12px;
+    line-height: 12px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    align-self: flex-end;
+    overflow: hidden;
+    text-align: right;
+}

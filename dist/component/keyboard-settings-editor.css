@@ -1,0 +1,12 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}

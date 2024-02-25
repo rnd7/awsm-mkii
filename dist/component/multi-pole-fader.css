@@ -1,0 +1,17 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 90px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex:0;
+    padding: 6px;
+    cursor: pointer;
+}
+canvas {
+    display:flex;
+    width: 78px;
+    height: 60px;
+}

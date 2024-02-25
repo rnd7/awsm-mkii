@@ -1,0 +1,13 @@
+:host {
+    user-select: none;
+    display: flex;
+    white-space: nowrap; 
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}

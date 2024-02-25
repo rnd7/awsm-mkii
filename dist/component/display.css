@@ -1,0 +1,87 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 90px;
+    min-height: 72px;
+    width: 90px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.header, .footer{
+    font-family: sans-serif;
+    color:rgb(128,128,128);
+    font-size: 9px;
+    height: 12px;
+    line-height: 12px;
+    align-self: flex-start;
+}
+
+:host(.clickable) {
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    font-size: 9px;
+    min-height: 12px;
+    line-height: 12px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    align-self: flex-end;
+    overflow: hidden;
+    text-align: right;
+}
+
+.mode {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: -2px;
+    height: 12px;
+    color:rgb(127,127,127);
+    gap: 3px;
+}
+
+.value-container {
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 3px;
+    height: 28px;
+    max-width: 78px;
+    justify-content: center;
+}
+
+.value {
+    display:flex;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.unit {
+    display:flex;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:rgba(255, 255, 255, 1);
+    vertical-align: baseline;
+}
+
+.precision {
+    display:flex;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:rgba(255, 255, 255, 1);
+    vertical-align: baseline;
+}

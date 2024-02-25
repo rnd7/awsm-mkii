@@ -1,0 +1,25 @@
+:host {
+    user-select: none;
+    display: flex;
+    white-space: nowrap; 
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.container.force-row {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}

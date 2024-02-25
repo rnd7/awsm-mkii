@@ -1,0 +1,20 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex: 1;
+    flex-direction: column;
+}
+.views {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+}
+
+awsm-layout-manager {
+    flex: 1;
+}

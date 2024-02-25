@@ -1,0 +1,22 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.container {
+    flex-direction: column;
+    max-width: 100%;
+}
+
+canvas {
+    display:flex;
+}

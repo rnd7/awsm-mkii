@@ -1,0 +1,40 @@
+:host {
+    user-select: none;
+    display: flex;
+    width: 90px;
+    height: 72px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    touch-action: none;
+    flex-direction: column;
+    flex:0;
+    padding: 6px;
+    cursor: pointer;
+}
+
+canvas {
+    touch-action: none;
+    display:flex;
+    height: 36px;
+    width: 78px;
+}
+
+.header, .footer{
+    font-family: sans-serif;
+    color:rgb(128,128,128);
+    font-size: 9px;
+    height: 12px;
+    align-self: flex-start;
+}
+
+.footer {
+    display: flex;
+    min-height: 12px;
+    line-height: 12px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+    align-self: flex-end;
+    overflow: hidden;
+    text-align: right;
+}

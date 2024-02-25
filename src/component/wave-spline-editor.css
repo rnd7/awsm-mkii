@@ -1,0 +1,29 @@
+:host {
+    user-select: none;
+    display: flex;
+    min-width: 72px;
+    min-height: 72px;
+    white-space: nowrap; 
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 6px;
+}
+
+.settings-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.wave-spline-container {
+    height: 72px;
+    flex: 1;
+}
+
+
+canvas {
+    display:flex;
+}
