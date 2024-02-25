@@ -3,7 +3,7 @@ This is the second Version of the *AwesomeWaveSplineMachine*. It is a quite uniq
 
 Click the link below to try the AWSM in your browser. 
 
-🚀 [AWSM - AwesomeWaveSplineMachine](https://rnd7.github.io/awsm/dist/index.html)
+🚀 [AWSM - AwesomeWaveSplineMachine MKII](https://rnd7.github.io/awsm-mkii/dist/index.html)
 
 For more information consider one of the following links.
 
