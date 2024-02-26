@@ -24,7 +24,7 @@ export default class DatabaseSessionItem extends Component {
         super()
         this.intitialized = false
         this.#canvas.setAttribute("draggable", false)
-        this.#canvas.setAttribute("width", 180)
+        this.#canvas.setAttribute("width", 186)
         this.#canvas.setAttribute("height", 72)
 
     
@@ -45,9 +45,6 @@ export default class DatabaseSessionItem extends Component {
 
         this.#channelsElement.classList.add("channels")
         this.#container.append(this.#channelsElement)
-
-        //this.#voicesElement.classList.add("channels")
-        //this.#container.append(this.#voicesElement)
 
         this.#init()
     }
@@ -148,7 +145,6 @@ export default class DatabaseSessionItem extends Component {
         let voices = 0
         this.#tree.branches.forEach(channel => {voices += channel.branches.length})
         this.#channelsElement.textContent = `${this.#tree.branches.length} Channels, ${voices} Voices`
-        //this.#voicesElement.textContent = `${voices} Voices`
     }
 
     #lineWidth =  4
@@ -176,11 +172,11 @@ export default class DatabaseSessionItem extends Component {
             this.#ctx.lineWidth = lineWidth
             this.#ctx.lineCap = "square"
             this.#ctx.beginPath()
-            this.#ctx.moveTo(x, y)
+            this.#ctx.moveTo(Math.round(x),Math.round(y))
 
-            this.#ctx.lineTo(hx, hy)
-            this.#ctx.lineTo(sx, hy)
-            this.#ctx.lineTo(sx, sy)
+            this.#ctx.lineTo(Math.round(hx), Math.round(hy))
+            this.#ctx.lineTo(Math.round(sx), Math.round(hy))
+            this.#ctx.lineTo(Math.round(sx), Math.round(sy))
             this.#ctx.stroke()
             this.#ctx.restore()
             //sy += (branch.branches[i].span / 2)*this.#branchHeight
@@ -189,41 +185,7 @@ export default class DatabaseSessionItem extends Component {
 
         }
     }
-    /*
-
-    #renderRecursive(x, y, branch, lineWidth=3) {
-        let sy = y-(branch.span * this.#branchSpan)/2
-        this.#ctx.save()
-        const col = (this.#active)?0x0:0xFF
-        this.#ctx.strokeStyle = `rgb(${col},${col},${col})`
-        this.#ctx.lineWidth = lineWidth
-        this.#ctx.lineCap = "square"
-        for (let i = 0; i<branch.branches.length; i++){
-     
-            let hx = x+this.#branchDepth/2
-            let hy = y
-            const sx = x + this.#branchDepth
-            sy += (branch.branches[i].span/2)*this.#branchSpan
-            this.#ctx.save()
-            this.#ctx.strokeStyle = `rgb(${col},${col},${col})`
-            this.#ctx.lineWidth = lineWidth
-            this.#ctx.lineCap = "square"
-            this.#ctx.beginPath()
-            this.#ctx.moveTo(x, y)
-
-            this.#ctx.lineTo(hx, hy)
-            this.#ctx.lineTo(hx, sy)
-            this.#ctx.lineTo(sx, sy)
-            this.#ctx.stroke()
-            this.#ctx.restore()
-            //sy += (branch.branches[i].span / 2)*this.#branchHeight
-            this.#renderRecursive(sx, sy, branch.branches[i], Math.max(2,lineWidth-1))
-            sy += (branch.branches[i].span/2)*this.#branchSpan
-
-        }
-    }
-
-    */
+   
 
     #renderTree() {
         let w = this.#canvas.width - 2 * this.#padding
