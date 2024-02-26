@@ -1,8 +1,7 @@
 :host {
     user-select: none;
     display: flex;
-    min-width: 90px;
-    min-height: 72px;
+    height: 72px;
     width: 90px;
     white-space: nowrap; 
     overflow: hidden;
