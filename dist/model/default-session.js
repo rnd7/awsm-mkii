@@ -2,8 +2,8 @@ export default function defaultSession() {
     return {
       "path": [],
       "dynamics": {
-        "threshold": 0.15243373873185168,
-        "scale": 0.4619761572927499,
+        "threshold": 0.28372032986898876,
+        "scale": 1.0596024308058984,
         "potential": 0,
         "id": "75261d5c-940e-4d85-9761-e66a178c3625"
       },
@@ -16,7 +16,8 @@ export default function defaultSession() {
         },
         {
           "path": [
-            "7d8151f4-5ed4-4407-a9e2-662630b1b96e"
+            "7d8151f4-5ed4-4407-a9e2-662630b1b96e",
+            "7110ada3-c782-4a7e-987c-26fe547205fc"
           ],
           "navigationCollapsed": false,
           "name": "Aju Snauple",
@@ -25,21 +26,11 @@ export default function defaultSession() {
         {
           "path": [
             "0fcb027f-b166-4da3-8e98-d6daa136a163",
-            "9371e92c-9c17-4c41-ad60-232e06573e43",
-            "fm"
+            "9ea83f45-d311-412e-af30-3405c55f64b3"
           ],
           "navigationCollapsed": false,
           "name": "Austoul Au",
           "id": "6249f2a8-6a9e-4525-bddb-cb4c1f6c7965"
-        },
-        {
-          "path": [
-            "0f75d2a8-edc4-473c-ab33-7f099a977aa0",
-            "34c050ef-92e2-436e-bada-ecab7ec62fa9"
-          ],
-          "navigationCollapsed": false,
-          "name": "Eagoak Su",
-          "id": "f033ce83-3a48-457a-af06-6aded29e0e1e"
         }
       ],
       "mode": "storage",
@@ -473,9 +464,9 @@ export default function defaultSession() {
           "gain": 1,
           "activeVoice": "",
           "dynamics": {
-            "threshold": 0.4627158412285569,
-            "scale": 0.5673407137061096,
-            "potential": 0.7325240409448935,
+            "threshold": 0.2997442556453166,
+            "scale": 0.7188328401340867,
+            "potential": 0.0769467048874811,
             "id": "93491cbf-b0cc-4aa7-8721-9a8854d29b8a"
           },
           "id": "7d8151f4-5ed4-4407-a9e2-662630b1b96e"
@@ -532,83 +523,7 @@ export default function defaultSession() {
                   "viewPosition": 0,
                   "id": "fa5fb2b7-a8f2-485e-abb6-b78fd3ab3b37"
                 },
-                "fm": {
-                  "length": 9.6,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.125,
-                        "y": 0.5,
-                        "e": 1,
-                        "id": "547eff7b-5e1c-4128-8ac3-aa474966a430"
-                      },
-                      {
-                        "x": 0.25,
-                        "y": 0.7083333333333334,
-                        "e": 1,
-                        "id": "f447ad3d-1a59-4271-b8f5-e32d6bdb4597"
-                      },
-                      {
-                        "x": 0.375,
-                        "y": 0.625,
-                        "e": 1,
-                        "id": "471c5dc7-f679-4aee-92da-ea2c54f52140"
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 0.4166666666666667,
-                        "e": 1,
-                        "id": "4e69082e-c2bd-4bf1-af49-4ffa1a812e84"
-                      },
-                      {
-                        "x": 0.625,
-                        "y": 0.5,
-                        "e": 1,
-                        "id": "177dcfff-5778-439b-9dce-ca74da8c9277"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "14fa6206-cb46-4aef-9f1b-7a7346e3c000"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "df1468d1-a05d-451d-96cd-240b5fac6993"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "5356d2f3-0967-42a4-8c7a-494fc224a0b9"
-                    },
-                    "e": 16.8,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 8,
-                    "gridXThreshold": 0,
-                    "gridY": 24,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "ff360c51-4447-43eb-8b6a-1a08a67d67a8"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "bar",
-                  "id": "392f55d2-b2fe-4823-811a-d68ca0e50666"
-                },
+                "fm": null,
                 "fmRange": 2,
                 "transpose": null,
                 "am": null,
@@ -896,482 +811,15 @@ export default function defaultSession() {
               "id": "9ea83f45-d311-412e-af30-3405c55f64b3"
             }
           ],
-          "gain": 0.7503498102923586,
+          "gain": 0.4464749337823022,
           "activeVoice": "",
           "dynamics": {
-            "threshold": 0.30829745376588447,
-            "scale": 0.7958890421203864,
-            "potential": 0.18318644493084746,
+            "threshold": 0.3764375568593286,
+            "scale": 1.35474425467169,
+            "potential": 0.09332964124532447,
             "id": "f2df0cad-6d71-474e-abec-7dec0d312aed"
           },
           "id": "0fcb027f-b166-4da3-8e98-d6daa136a163"
-        },
-        {
-          "name": "Ba Groysa",
-          "state": "active",
-          "release": 0.1,
-          "voices": [
-            {
-              "oscillator": {
-                "length": 0.0034052433565379125,
-                "tempoSync": false,
-                "wave": {
-                  "points": [
-                    {
-                      "x": 0.013816357011505742,
-                      "y": 0.5027615229288735,
-                      "e": 1,
-                      "id": "9a382884-172f-4cde-b53a-9e492e957f3a"
-                    },
-                    {
-                      "x": 0.1254963832618925,
-                      "y": 0.9764428138732912,
-                      "e": 1,
-                      "id": "6c4b5f3b-1717-4511-8fc7-6edf45899ee7"
-                    },
-                    {
-                      "x": 0.31695745619769866,
-                      "y": 0.49869362513224275,
-                      "e": 1,
-                      "id": "da585702-56f9-43ba-a7e0-c0636cf3f51c"
-                    },
-                    {
-                      "x": 0.3983721234309632,
-                      "y": 0.795037587483724,
-                      "e": 1,
-                      "id": "b6e72771-c739-4cd7-8fb3-e725f3a2adf9"
-                    },
-                    {
-                      "x": 0.4997412139542954,
-                      "y": 0.5014106432596833,
-                      "e": 1,
-                      "id": "306133ad-ab7c-4483-9a4f-b2edf5c38de3"
-                    },
-                    {
-                      "x": 0.6577072818722349,
-                      "y": 0.005333900451660157,
-                      "e": 1,
-                      "id": "667d5744-0c3a-4a9b-a20a-0b96a4c99819"
-                    },
-                    {
-                      "x": 0.8227719741323223,
-                      "y": 0.501495679219564,
-                      "e": 1,
-                      "id": "ff47c191-e268-45eb-8020-91a69e1abf58"
-                    },
-                    {
-                      "x": 0.9070230779288706,
-                      "y": 0.22054640452067056,
-                      "e": 1,
-                      "id": "d1467bb1-ca15-4c3c-b1f3-600f9b9608f6"
-                    }
-                  ],
-                  "transformCenter": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "id": "e01bb6f9-3a5d-4551-916f-ddbc91b2eac6"
-                  },
-                  "transformScale": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "b9e50a30-df61-486f-b05a-a043d455fb5f"
-                  },
-                  "transformRange": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "398868d9-8302-4804-b881-14d39ced66a2"
-                  },
-                  "e": 2.42,
-                  "quantizeX": 9007199254740991,
-                  "quantizeXThreshold": -1,
-                  "quantizeY": 9007199254740991,
-                  "quantizeYThreshold": 0,
-                  "gridX": 9007199254740991,
-                  "gridXThreshold": 0,
-                  "gridY": 9007199254740991,
-                  "gridYThreshold": 0,
-                  "viewZoom": 1,
-                  "viewPosition": 0,
-                  "id": "69c8d401-d7b9-48c0-9bbe-094c7bfdd297"
-                },
-                "fm": null,
-                "fmRange": 2,
-                "transpose": {
-                  "length": 0.075,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.0011796384675726301,
-                        "y": 0.5111420949300128,
-                        "e": 1,
-                        "id": "4d1b950a-461a-4ef6-909e-93c1e949a636"
-                      },
-                      {
-                        "x": 0.07679172659518652,
-                        "y": 0.3642851511637369,
-                        "e": 1,
-                        "id": "00ccd745-2a4a-484d-99da-022664dbb09a"
-                      },
-                      {
-                        "x": 0.1775300732217575,
-                        "y": 0.6954625447591147,
-                        "e": 1,
-                        "id": "715c592f-52a2-4c8f-b590-870e2929f2a6"
-                      },
-                      {
-                        "x": 0.4996669881014646,
-                        "y": 0.500289599100749,
-                        "e": 1,
-                        "id": "889cdbd6-b6ce-4b0d-91e6-bc44c7880610"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "9d95c64a-e58b-4fd4-be19-c79b10b57279"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "51ccae8c-ec40-4aec-bfd9-98ec782e2508"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "5bae05d2-b590-4830-bf24-41e037fb2a2a"
-                    },
-                    "e": 2.85,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "694b50c8-d09f-4777-8f85-bc9058c00014"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "fraction",
-                  "id": "87ead22e-0a82-4e83-92b0-f41aafbeef0b"
-                },
-                "am": {
-                  "length": 57.599999999999994,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.013044928997615113,
-                        "y": 0.7372369766235346,
-                        "e": 1,
-                        "id": "a9c21a28-0b5e-4761-a6e6-f1eaf475997c"
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 1,
-                        "e": 1,
-                        "id": "4a0f38c0-f000-459d-a83a-478a6805cba7"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "9af78278-8e65-47af-9dc0-e858feb1110f"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "4eed45f9-63ce-45ab-983e-116e1e841885"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "6be59419-4c70-4bf6-9f97-af37bf946870"
-                    },
-                    "e": 1.62,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "caf7d1f5-dc7d-46ba-b3c8-7e39b9360bbd"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "bar",
-                  "id": "3ddf1bdb-61a3-4a8a-a1fe-b5b58b67e849"
-                },
-                "em": {
-                  "length": 19.2,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.5,
-                        "y": 1,
-                        "e": 1,
-                        "id": "290e6b8a-e8bd-4e27-a7c0-7566a08e9335"
-                      },
-                      {
-                        "x": 0.8972137323483236,
-                        "y": 0.40423234303792316,
-                        "e": 1,
-                        "id": "0e5f029c-f14d-4512-9981-ce55b75b8d7e"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "7c85ca9b-f3dd-4ad3-8c70-b090b5a7ecfe"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "12ec6eeb-dd26-44a3-add0-7a2e897c3f94"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "7bf61cef-5d8f-4361-9deb-5c0927d78f98"
-                    },
-                    "e": 1,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "b5fcf013-b816-4685-addb-f65baf87e6dc"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "bar",
-                  "id": "2a31d63e-d1b4-4fa1-aea8-7af80d867b1e"
-                },
-                "sx": null,
-                "sy": null,
-                "gain": {
-                  "length": 0.15,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.01035080644900832,
-                        "y": 0.0025612513224283857,
-                        "e": 1,
-                        "id": "1770b22a-3eb7-4d26-a402-e8ec576ba3f8"
-                      },
-                      {
-                        "x": 0.1718144189783768,
-                        "y": 1,
-                        "e": 1,
-                        "id": "0a471fb7-a397-44c1-8818-c3e1f937c114"
-                      },
-                      {
-                        "x": 0.4950695737400781,
-                        "y": 0.13708400726318365,
-                        "e": 1,
-                        "id": "d42fe13d-2288-42b3-9274-bd6a010807a2"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "5d73024f-d567-44d4-b969-7550e8b76238"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "5a4d31b0-93f1-47d9-9b24-12f1b07dc04f"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "81776b8d-0ea9-42c8-aad2-6940b7a57ce0"
-                    },
-                    "e": 3.1,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "1360333b-d8c8-4b9d-881d-3347dc74b259"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": {
-                    "length": 2.4,
-                    "tempoSync": true,
-                    "wave": {
-                      "points": [
-                        {
-                          "x": 0.009846022661715415,
-                          "y": 0.9987193743387858,
-                          "e": 1,
-                          "id": "8efbfdf0-7387-480e-93df-3f991fd705a0"
-                        },
-                        {
-                          "x": 0.11909995444015986,
-                          "y": 0.39491430918375664,
-                          "e": 1,
-                          "id": "1e8273e0-b27a-4089-a2f6-128ad12e9c23"
-                        },
-                        {
-                          "x": 0.23227533696693703,
-                          "y": 0.6003244717915854,
-                          "e": 1,
-                          "id": "9c65fe40-36aa-4339-be6b-c3ec62dd6d2c"
-                        },
-                        {
-                          "x": 0.3564263870767561,
-                          "y": 0,
-                          "e": 1,
-                          "id": "9c2455d4-c1ec-40ba-b09c-00f116a2586a"
-                        },
-                        {
-                          "x": 0.5112790808213508,
-                          "y": 0.9769991238911943,
-                          "e": 1,
-                          "id": "9aea4aff-268f-4179-aa59-bc9b37ea2e38"
-                        },
-                        {
-                          "x": 0.6438694056508119,
-                          "y": 0.3448689778645832,
-                          "e": 1,
-                          "id": "5e34bf67-b0ca-4b65-be40-8fc43bca6d3a"
-                        },
-                        {
-                          "x": 0.7591990672412465,
-                          "y": 0.8923565546671549,
-                          "e": 1,
-                          "id": "d4f004bd-ee54-41f2-a608-00e7c29a1a4a"
-                        },
-                        {
-                          "x": 0.8804848820058995,
-                          "y": 0.0012804667154947917,
-                          "e": 1,
-                          "id": "9b30e5c4-002f-4aa8-a6a8-1777314f1140"
-                        }
-                      ],
-                      "transformCenter": {
-                        "x": 0.5,
-                        "y": 0.5,
-                        "id": "f904224c-676f-4ad3-948d-a5a730768abe"
-                      },
-                      "transformScale": {
-                        "x": 1,
-                        "y": 1,
-                        "id": "fb69db09-5919-42d7-b8c4-8c7a5ac461c8"
-                      },
-                      "transformRange": {
-                        "x": 1,
-                        "y": 1,
-                        "id": "66d928df-454e-459d-8916-2c92c97385f0"
-                      },
-                      "e": 2.94,
-                      "quantizeX": 9007199254740991,
-                      "quantizeXThreshold": -1,
-                      "quantizeY": 9007199254740991,
-                      "quantizeYThreshold": 0,
-                      "gridX": 9007199254740991,
-                      "gridXThreshold": 0,
-                      "gridY": 9007199254740991,
-                      "gridYThreshold": 0,
-                      "viewZoom": 1,
-                      "viewPosition": 0,
-                      "id": "6e5eedf0-8c07-4313-bb1f-f991b1f0c854"
-                    },
-                    "fm": null,
-                    "fmRange": 2,
-                    "transpose": null,
-                    "am": null,
-                    "em": null,
-                    "sx": null,
-                    "sy": null,
-                    "gain": null,
-                    "phase": 0,
-                    "phaseShift": 0.19324028895358708,
-                    "lengthDriver": "fraction",
-                    "id": "a6c1a187-efc9-401a-844d-e8cb8800066b"
-                  },
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "fraction",
-                  "id": "82187988-eb03-45df-958c-f48682d3b789"
-                },
-                "phase": 0,
-                "phaseShift": 0,
-                "lengthDriver": "note",
-                "id": "00ebfd31-74ac-47ee-8bb5-173a4026cafe"
-              },
-              "name": "Iediup Za",
-              "gain": 0.40669383931945613,
-              "state": "sustain",
-              "on": 0,
-              "off": 9007199254740991,
-              "attack": 1,
-              "release": 1,
-              "path": [],
-              "bus": "main",
-              "id": "34c050ef-92e2-436e-bada-ecab7ec62fa9"
-            }
-          ],
-          "gain": 0.1729393949348865,
-          "activeVoice": "",
-          "dynamics": {
-            "threshold": 0.2752219506149035,
-            "scale": 2.6949623457649725,
-            "potential": 0,
-            "id": "95c04b3d-7230-47ec-a356-8de4e0a7d25c"
-          },
-          "id": "0f75d2a8-edc4-473c-ab33-7f099a977aa0"
         }
       ],
       "channelMix": {
@@ -1379,7 +827,7 @@ export default function defaultSession() {
         "y": 0.1821136474609375,
         "id": "5a92a719-197c-4c20-83af-c14e2e47d45b"
       },
-      "main": 0.5499086829202133,
+      "main": 0.5327539890264091,
       "potential": 0.33,
       "mute": false,
       "activeChannel": "",
@@ -1794,8 +1242,8 @@ export default function defaultSession() {
       "created": 1708897287648,
       "state": "playing",
       "keyboardFocus": [
-        "0f75d2a8-edc4-473c-ab33-7f099a977aa0",
-        "34c050ef-92e2-436e-bada-ecab7ec62fa9"
+        "0fcb027f-b166-4da3-8e98-d6daa136a163",
+        "9ea83f45-d311-412e-af30-3405c55f64b3"
       ],
       "id": "41f3622c-416e-471e-bd34-6205755f00b5",
       "tree": {
@@ -1847,12 +1295,6 @@ export default function defaultSession() {
                 "type": "voice",
                 "branches": [
                   {
-                    "type": "fm",
-                    "branches": [],
-                    "span": 1,
-                    "depth": 1
-                  },
-                  {
                     "type": "em",
                     "branches": [
                       {
@@ -1866,18 +1308,76 @@ export default function defaultSession() {
                     "depth": 2
                   }
                 ],
-                "span": 2,
+                "span": 1,
                 "depth": 3
+              },
+              {
+                "type": "voice",
+                "branches": [
+                  {
+                    "type": "fm",
+                    "branches": [],
+                    "span": 1,
+                    "depth": 1
+                  }
+                ],
+                "span": 1,
+                "depth": 2
               }
             ],
             "span": 2,
             "depth": 4
+          },
+          {
+            "type": "channel",
+            "branches": [
+              {
+                "type": "voice",
+                "branches": [
+                  {
+                    "type": "am",
+                    "branches": [],
+                    "span": 1,
+                    "depth": 1
+                  },
+                  {
+                    "type": "transpose",
+                    "branches": [],
+                    "span": 1,
+                    "depth": 1
+                  },
+                  {
+                    "type": "em",
+                    "branches": [],
+                    "span": 1,
+                    "depth": 1
+                  },
+                  {
+                    "type": "gain",
+                    "branches": [
+                      {
+                        "type": "gain",
+                        "branches": [],
+                        "span": 1,
+                        "depth": 1
+                      }
+                    ],
+                    "span": 1,
+                    "depth": 2
+                  }
+                ],
+                "span": 4,
+                "depth": 3
+              }
+            ],
+            "span": 4,
+            "depth": 4
           }
         ],
-        "span": 5,
+        "span": 9,
         "depth": 5
       },
-      "changed": 1708940806934
+      "changed": 1708958163709
     }
 
 }
