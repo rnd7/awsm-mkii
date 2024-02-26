@@ -166,9 +166,9 @@ export default class LayoutManager extends Component {
                 wrap: false
             },*/{
                 header: "AWSM",
-                footer: "",// "none",
+                footer: "",
                 label: "Database",
-                mode: "toggle",
+                mode: "logo",
                 action: "show-view",
                 invisible: false,
                 wrap: false
@@ -191,7 +191,7 @@ export default class LayoutManager extends Component {
                 wrap: false
             },*/{
                 header: "AWSM",
-                footer: "",// this.#session.name,
+                footer: "Mode: 2/2",
                 label: "Database",
                 mode: "logo",
                 action: "show-view",
@@ -264,7 +264,7 @@ export default class LayoutManager extends Component {
                 wrap: false
             },*/{
                 header: "AWSM",
-                footer: "",//this.#session.name,
+                footer: "Mode: 1/2",
                 label: "Perform",
                 mode: "logo",
                 action: "show-storage",
