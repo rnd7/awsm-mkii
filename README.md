@@ -23,7 +23,7 @@ Views are columns that can be navigated independently.
 
 Global settings are located in the Session Settings.
 
-A Session can contain multiple Channels with multiple individual Voices. Every Voice can be modulated by Oscillatos.
+A Session can contain multiple Channels with multiple individual Voices. Every Voice can be modulated by various different Oscillators.
 
 Double click to add or remove additional WaveSplinePoints to a WaveSplineGraph.
 
