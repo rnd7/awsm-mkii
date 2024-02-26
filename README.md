@@ -17,18 +17,20 @@ For more information consider one of the following links.
 
 [Back to top](#awsm)
 
-Click on top left button to toggle between database and performance mode.
+This is an early beta version. It is likely that the data structure will change. A migration of existing user data is not planned. It should therefore be expected that existing songs will sound different or be lost at a later date.
 
-Views are columns that can be navigated independently.
+Click on top left button to toggle between database and performance mode. Several sessions can be managed and loaded in the Database view. Within Performance mode, the parameters of the currently selected session can be adjusted.
 
-Global settings are located in the Session Settings.
+Within Performance Mode, the views are managed in the left-hand column. Every view adds a column. You can add as many views as you like and navigate within these individually. The selected element in the Session tree is highlighted using a white background. A tap on a selected element toggles the Navigation visibility.
+
+The main mix controls and some global settings are located in the Session section.
 
 A Session can contain multiple Channels with multiple individual Voices. Every Voice can be modulated by various different Oscillators.
 
-Double click to add or remove additional WaveSplinePoints to a WaveSplineGraph.
+Double tap to add or remove additional WaveSplinePoints to a WaveSplineGraph.
 
-This is an early beta. At some point You'll probably loose all your data. Your songs might sound different with the next update.
-
+Some user interface elements cycle through different modes on tap, these can be indentified by a hint in the bottom right-hand corner of an element.
+ 
 # Developer guide
 
 [Back to top](#awsm)
