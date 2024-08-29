@@ -2,312 +2,66 @@ export default function defaultSession() {
     return {
       "path": [],
       "dynamics": {
-        "threshold": 0.28372032986898876,
-        "scale": 1.0596024308058984,
+        "threshold": 0.4960970859797194,
+        "scale": 0.8034679730191862,
         "potential": 0,
-        "id": "75261d5c-940e-4d85-9761-e66a178c3625"
+        "id": "a17ee831-5e46-4aef-8b35-84942130af52"
       },
       "views": [
         {
-          "path": [],
-          "navigationCollapsed": true,
-          "name": "Udriduwo Osnoy",
-          "id": "b4715183-d30f-4764-8770-2eaef64b2733"
-        },
-        {
           "path": [
-            "7d8151f4-5ed4-4407-a9e2-662630b1b96e",
-            "7110ada3-c782-4a7e-987c-26fe547205fc"
+            "c330d384-3712-409a-a8bd-4cda68ea85b3",
+            "5ffc2320-53e9-497e-86c1-e0c0404e43b2"
           ],
           "navigationCollapsed": false,
-          "name": "Aju Snauple",
-          "id": "21b29821-a9ce-4925-943f-598c481dc48e"
-        },
-        {
-          "path": [
-            "0fcb027f-b166-4da3-8e98-d6daa136a163",
-            "9ea83f45-d311-412e-af30-3405c55f64b3"
-          ],
-          "navigationCollapsed": false,
-          "name": "Austoul Au",
-          "id": "6249f2a8-6a9e-4525-bddb-cb4c1f6c7965"
+          "name": "Main View",
+          "id": "af21e1f8-8f5c-40f3-a996-50af5df001d7"
         }
       ],
       "mode": "storage",
       "activeView": 0,
-      "name": "AWSM Demo",
+      "name": "Minimal 120bpm",
       "channels": [
         {
-          "name": "Earespu Clou",
+          "name": "Melodic",
           "state": "active",
           "release": 0.1,
           "voices": [
             {
               "oscillator": {
-                "length": 0.5,
+                "length": 0.010204200439176117,
                 "tempoSync": false,
                 "wave": {
                   "points": [
                     {
-                      "x": 0.0010143577509948987,
-                      "y": 0.4989980061848962,
+                      "x": 0.017558136878654818,
+                      "y": 0.00128173828125,
                       "e": 1,
-                      "id": "d9f4c031-901f-4a02-bdae-7ac7c108a404"
+                      "id": "4d61f275-5c9b-4998-9c27-fd92020eb7e5"
                     },
                     {
-                      "x": 0.007359855533129567,
-                      "y": 1,
+                      "x": 0.36104978760469963,
+                      "y": 0.9962972005208333,
                       "e": 1,
-                      "id": "2e11e0e7-a104-42f7-b7c5-4989fe20493f"
-                    },
-                    {
-                      "x": 0.010773426327540525,
-                      "y": 0.05595143636067705,
-                      "e": 1,
-                      "id": "73c39e01-3087-445f-80f9-97117ee63c75"
-                    },
-                    {
-                      "x": 0.014791458973981264,
-                      "y": 0.9363412857055664,
-                      "e": 1,
-                      "id": "14748514-146f-4e56-8ec8-b4562eb00f02"
-                    },
-                    {
-                      "x": 0.026395144838690543,
-                      "y": 0.07840315500895176,
-                      "e": 1,
-                      "id": "71b0bad8-c04f-4284-98bf-03a1c0236f1f"
-                    },
-                    {
-                      "x": 0.035519044918316034,
-                      "y": 0.8524896303812657,
-                      "e": 1,
-                      "id": "fda8e719-5349-4d40-a828-3b5650639417"
-                    },
-                    {
-                      "x": 0.04978995829265109,
-                      "y": 0.27346102396647115,
-                      "e": 1,
-                      "id": "66168172-ff4c-4305-919e-1b1249ad3c96"
-                    },
-                    {
-                      "x": 0.07884920419964359,
-                      "y": 0.8188279469807943,
-                      "e": 1,
-                      "id": "b7eaf147-c5a0-4dd3-9c40-c0127b360a34"
-                    },
-                    {
-                      "x": 0.25350420293485043,
-                      "y": 0.18930435180664026,
-                      "e": 1,
-                      "id": "37d9161a-cf40-47e7-8947-3881663abcba"
-                    },
-                    {
-                      "x": 0.39602545871077854,
-                      "y": 0.5020783742268882,
-                      "e": 1,
-                      "id": "51c74b73-c865-4bbe-900d-b22ebf87010d"
+                      "id": "08aec577-0fd8-4249-8bac-00c1f6ee276b"
                     }
                   ],
                   "transformCenter": {
                     "x": 0.5,
                     "y": 0.5,
-                    "id": "fd6df856-add6-49cb-bddf-9d4e02d80b8e"
+                    "id": "4f3ccb72-9a8c-4d03-bd91-1b3625dd9ce6"
                   },
                   "transformScale": {
                     "x": 1,
                     "y": 1,
-                    "id": "86158850-12bc-4e53-87bd-e361e6ee63e3"
+                    "id": "bdc942d2-50a3-4c00-9fee-00995a9a966e"
                   },
                   "transformRange": {
                     "x": 1,
                     "y": 1,
-                    "id": "6f5c4b38-b769-43cf-a687-565193b4a4dd"
+                    "id": "e8576aa4-f443-4c6c-9cf9-b88b540f68f0"
                   },
-                  "e": 1.85,
-                  "quantizeX": 9007199254740991,
-                  "quantizeXThreshold": -1,
-                  "quantizeY": 9007199254740991,
-                  "quantizeYThreshold": 0,
-                  "gridX": 9007199254740991,
-                  "gridXThreshold": 0,
-                  "gridY": 9007199254740991,
-                  "gridYThreshold": 0,
-                  "viewZoom": 0.4004503526937189,
-                  "viewPosition": 0,
-                  "id": "5557abc6-6499-4033-8f5f-345af16dcc1b"
-                },
-                "fm": null,
-                "fmRange": 2,
-                "transpose": null,
-                "am": {
-                  "length": 0.017161351139667155,
-                  "tempoSync": false,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.1029294331868491,
-                        "y": 0,
-                        "e": 1,
-                        "id": "45e5381c-43d0-49a6-a352-07d6d893e1b3"
-                      },
-                      {
-                        "x": 0.5,
-                        "y": 1,
-                        "e": 1,
-                        "id": "64094b50-cf66-4ba6-989d-566f13a39236"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "f2417c9a-9e97-4077-8be3-d3f97ae8a636"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "013b4e66-9570-4417-acf7-dba97931448b"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "247672d4-add9-4b6b-8f1d-36a4e5977360"
-                    },
-                    "e": 3.19,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "1c972134-bf6d-4a76-bb28-fb3fa74c1adc"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "note",
-                  "id": "84811779-f604-4f02-b060-5be0313ef0b3"
-                },
-                "em": null,
-                "sx": null,
-                "sy": null,
-                "gain": null,
-                "phase": 0,
-                "phaseShift": 0,
-                "lengthDriver": "fraction",
-                "id": "1833b7cf-7ca0-42d5-91a9-88b7e8838e09"
-              },
-              "name": "Ie Aysweu",
-              "gain": 0.5,
-              "state": "sustain",
-              "on": 0,
-              "off": 9007199254740991,
-              "attack": 1,
-              "release": 1,
-              "path": [],
-              "bus": "main",
-              "id": "7110ada3-c782-4a7e-987c-26fe547205fc"
-            },
-            {
-              "oscillator": {
-                "length": 0.25,
-                "tempoSync": false,
-                "wave": {
-                  "points": [
-                    {
-                      "x": 0.005726814270019531,
-                      "y": 0.499276161193848,
-                      "e": 1,
-                      "id": "a417f8e9-1813-4005-9b2c-4f9bf27f9812"
-                    },
-                    {
-                      "x": 0.020294723607901854,
-                      "y": 0.7430853843688964,
-                      "e": 1,
-                      "id": "7a0f0b6c-629b-47dd-8fac-754b7c35aed3"
-                    },
-                    {
-                      "x": 0.029174634657688214,
-                      "y": 0.31755240758260084,
-                      "e": 1,
-                      "id": "6f9af57b-4960-4e64-8da8-e3691fde974a"
-                    },
-                    {
-                      "x": 0.044357857914222976,
-                      "y": 0.870999495188395,
-                      "e": 1,
-                      "id": "e4069bc8-ec89-47f6-a9fb-5e18ff2d5366"
-                    },
-                    {
-                      "x": 0.0586711845045782,
-                      "y": 0.09720309575398767,
-                      "e": 1,
-                      "id": "41246558-63bf-4e47-a114-6943dfd37698"
-                    },
-                    {
-                      "x": 0.08552476672221498,
-                      "y": 0.8949886957804362,
-                      "e": 1,
-                      "id": "bc82d405-2094-4fc4-805f-37b822aca6ff"
-                    },
-                    {
-                      "x": 0.09471691979302488,
-                      "y": 0.11187203725179029,
-                      "e": 1,
-                      "id": "f512a954-787f-4040-9ac6-b5aff7f39ada"
-                    },
-                    {
-                      "x": 0.1660438502607724,
-                      "y": 0.8778916994730631,
-                      "e": 1,
-                      "id": "c310c2c4-9ca3-4f8b-a191-0615bb767c2f"
-                    },
-                    {
-                      "x": 0.26152885169313667,
-                      "y": 0.1272819836934408,
-                      "e": 1,
-                      "id": "5761c52b-b20e-4c9a-b771-17ba32aa8434"
-                    },
-                    {
-                      "x": 0.396677446644208,
-                      "y": 0.7580208778381349,
-                      "e": 1,
-                      "id": "590b5f2a-3707-4fe9-9533-3bed618111db"
-                    },
-                    {
-                      "x": 0.637082663195871,
-                      "y": 0.4864641825358075,
-                      "e": 1,
-                      "id": "13199317-ec56-4bb6-be5e-03d649ccfcee"
-                    }
-                  ],
-                  "transformCenter": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "id": "d25fd705-1788-47c9-8118-eaa3f0c4cce0"
-                  },
-                  "transformScale": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "082d55d3-dafa-476c-bd43-3b78b0329abf"
-                  },
-                  "transformRange": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "28a638fc-1629-48fc-8822-f13b8c457c4a"
-                  },
-                  "e": 3.96,
+                  "e": 3.11,
                   "quantizeX": 9007199254740991,
                   "quantizeXThreshold": -1,
                   "quantizeY": 9007199254740991,
@@ -318,450 +72,50 @@ export default function defaultSession() {
                   "gridYThreshold": 0,
                   "viewZoom": 1,
                   "viewPosition": 0,
-                  "id": "90d49fa0-75de-4379-9bab-9ac6d6ccfa52"
+                  "id": "a0a2ecc2-0f29-41bc-8942-53be17b5854c"
                 },
                 "fm": null,
                 "fmRange": 2,
-                "transpose": null,
-                "am": {
-                  "length": 0.008580675569833577,
-                  "tempoSync": false,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.2736988448246551,
-                        "y": 0.15328248341878287,
-                        "e": 1,
-                        "id": "5a6f58d0-23ed-43ea-a8ea-0793ec405221"
-                      },
-                      {
-                        "x": 0.7296182372546529,
-                        "y": 0.8566006024678549,
-                        "e": 1,
-                        "id": "68efaeea-4145-4a7e-9a68-3add2636fb29"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "873926b6-6e27-4242-9798-cf0e0ed24a32"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "ad581199-5c9b-42c4-9946-e74393ede8f3"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "f895418f-e509-469b-9e9d-61f1c17ab230"
-                    },
-                    "e": 3.16,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "bd23305a-d9b3-49b8-abb6-68d1f9f8f646"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "note",
-                  "id": "8cc643e4-7b52-4a5d-b1a8-27ad659e5f1c"
-                },
-                "em": null,
-                "sx": null,
-                "sy": null,
-                "gain": {
-                  "length": 2.4,
+                "transpose": {
+                  "length": 8,
                   "tempoSync": true,
                   "wave": {
                     "points": [
                       {
-                        "x": 0.000027868482801451933,
-                        "y": 0.005122184753417969,
-                        "e": 1,
-                        "id": "ed83ad0c-8ac7-437f-8193-c85db885f66b"
-                      },
-                      {
-                        "x": 0.5,
+                        "x": 0,
                         "y": 1,
                         "e": 1,
-                        "id": "e9753378-06f4-4ba5-beb4-4d0ced54a9f7"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "4e9faa99-2f4b-48ae-8aef-0e163ef89511"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "5e7cfde5-0b0d-4c57-b4ae-bd3523b35306"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "18c4c764-fe84-4605-aed8-596e3ec7983c"
-                    },
-                    "e": 2.5100000000000002,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 9007199254740991,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "48e57cea-1da4-42aa-8397-b838bc7c48ae"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": null,
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "bar",
-                  "id": "75477d50-783e-49b2-872e-df24d736eb72"
-                },
-                "phase": 0,
-                "phaseShift": 0,
-                "lengthDriver": "fraction",
-                "id": "24436af1-32a8-4bb5-8c66-272d929f641f"
-              },
-              "name": "Oikneu Blespo",
-              "gain": 0.501715516027725,
-              "state": "sustain",
-              "on": 0,
-              "off": 9007199254740991,
-              "attack": 1,
-              "release": 1,
-              "path": [],
-              "bus": "main",
-              "id": "8af95214-7ece-4fee-9c9d-60dddf38b713"
-            }
-          ],
-          "gain": 1,
-          "activeVoice": "",
-          "dynamics": {
-            "threshold": 0.2997442556453166,
-            "scale": 0.7188328401340867,
-            "potential": 0.0769467048874811,
-            "id": "93491cbf-b0cc-4aa7-8721-9a8854d29b8a"
-          },
-          "id": "7d8151f4-5ed4-4407-a9e2-662630b1b96e"
-        },
-        {
-          "name": "Eubre Ee",
-          "state": "active",
-          "release": 0.1,
-          "voices": [
-            {
-              "oscillator": {
-                "length": 0.01362097342615165,
-                "tempoSync": false,
-                "wave": {
-                  "points": [
-                    {
-                      "x": 0,
-                      "y": 0,
-                      "e": 1,
-                      "id": "a148103e-0496-4558-a2ce-9641c2009101"
-                    },
-                    {
-                      "x": 0.5,
-                      "y": 1,
-                      "e": 1,
-                      "id": "c5927923-6243-44d9-b781-7186fa347458"
-                    }
-                  ],
-                  "transformCenter": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "id": "3238ab8d-3c7b-43f4-bd9c-efd0f2f1389d"
-                  },
-                  "transformScale": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "425f8c7e-9179-4375-b7c7-de744adf3d4d"
-                  },
-                  "transformRange": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "d6b738f5-6fc3-4b51-bc1a-5fb2638bcd75"
-                  },
-                  "e": 10.77,
-                  "quantizeX": 9007199254740991,
-                  "quantizeXThreshold": -1,
-                  "quantizeY": 9007199254740991,
-                  "quantizeYThreshold": 0,
-                  "gridX": 9007199254740991,
-                  "gridXThreshold": 0,
-                  "gridY": 9007199254740991,
-                  "gridYThreshold": 0,
-                  "viewZoom": 1,
-                  "viewPosition": 0,
-                  "id": "fa5fb2b7-a8f2-485e-abb6-b78fd3ab3b37"
-                },
-                "fm": null,
-                "fmRange": 2,
-                "transpose": null,
-                "am": null,
-                "em": {
-                  "length": 9.6,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.125,
-                        "y": 0.45735645294189464,
-                        "e": 1,
-                        "id": "4f3ba4a2-3bcc-441f-8f4d-62e436b52352"
+                        "id": "5a0d60ce-1cbf-4162-b6b7-0fd409ee5912"
                       },
                       {
-                        "x": 0.375,
-                        "y": 1,
-                        "e": 1,
-                        "id": "7e48bb99-bd8a-43ce-9bdb-bc7f2e4db60e"
-                      }
-                    ],
-                    "transformCenter": {
-                      "x": 0.5,
-                      "y": 0.5,
-                      "id": "7d76b48e-5613-4539-8eec-b5311e2f7d73"
-                    },
-                    "transformScale": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "60aee2da-ef52-4baa-8a03-3a54c2535f8c"
-                    },
-                    "transformRange": {
-                      "x": 1,
-                      "y": 1,
-                      "id": "c29f4763-9ef6-4834-805d-3a5a18b69e11"
-                    },
-                    "e": 2.13,
-                    "quantizeX": 9007199254740991,
-                    "quantizeXThreshold": -1,
-                    "quantizeY": 9007199254740991,
-                    "quantizeYThreshold": 0,
-                    "gridX": 8,
-                    "gridXThreshold": 0,
-                    "gridY": 9007199254740991,
-                    "gridYThreshold": 0,
-                    "viewZoom": 1,
-                    "viewPosition": 0,
-                    "id": "67f8dc20-d2ea-4502-820d-88141c4f3d09"
-                  },
-                  "fm": null,
-                  "fmRange": 2,
-                  "transpose": null,
-                  "am": null,
-                  "em": null,
-                  "sx": null,
-                  "sy": null,
-                  "gain": {
-                    "length": 0.6,
-                    "tempoSync": true,
-                    "wave": {
-                      "points": [
-                        {
-                          "x": 0.07571073603151968,
-                          "y": 0.21224610010782832,
-                          "e": 1,
-                          "id": "47424635-2559-4a37-a524-b4506c17cad0"
-                        },
-                        {
-                          "x": 0.425199901504298,
-                          "y": 1,
-                          "e": 1,
-                          "id": "ad57435b-dcba-4ea5-a169-92dcbf07707b"
-                        },
-                        {
-                          "x": 0.5718176934097423,
-                          "y": 0.6527749697367351,
-                          "e": 1,
-                          "id": "b3494233-72d2-4a32-a93d-a2a6369ea89d"
-                        },
-                        {
-                          "x": 0.9448457646848152,
-                          "y": 0.9910360972086588,
-                          "e": 1,
-                          "id": "b514d1cc-facd-4f62-ad3a-4e1c94777824"
-                        }
-                      ],
-                      "transformCenter": {
-                        "x": 0.5,
+                        "x": 0.25,
                         "y": 0.5,
-                        "id": "40095fab-1d2e-41b3-89e1-2b2cded9d9df"
-                      },
-                      "transformScale": {
-                        "x": 1,
-                        "y": 1,
-                        "id": "83d8814d-5ab0-44cd-b5d5-73912b856150"
-                      },
-                      "transformRange": {
-                        "x": 1,
-                        "y": 1,
-                        "id": "eff018fa-8250-4b20-991a-411230db6983"
-                      },
-                      "e": 4.43,
-                      "quantizeX": 9007199254740991,
-                      "quantizeXThreshold": -1,
-                      "quantizeY": 9007199254740991,
-                      "quantizeYThreshold": 0,
-                      "gridX": 9007199254740991,
-                      "gridXThreshold": 0,
-                      "gridY": 9007199254740991,
-                      "gridYThreshold": 0,
-                      "viewZoom": 1,
-                      "viewPosition": 0,
-                      "id": "3222cce2-7f5f-4369-bf06-17c015cfa2ed"
-                    },
-                    "fm": null,
-                    "fmRange": 2,
-                    "transpose": null,
-                    "am": null,
-                    "em": null,
-                    "sx": null,
-                    "sy": null,
-                    "gain": null,
-                    "phase": 0,
-                    "phaseShift": 0,
-                    "lengthDriver": "fraction",
-                    "id": "f56c28c7-ccd3-4cdd-81fe-67188a68845d"
-                  },
-                  "phase": 0,
-                  "phaseShift": 0,
-                  "lengthDriver": "bar",
-                  "id": "19801666-cd16-42c3-b7a1-c1d31f667ec3"
-                },
-                "sx": null,
-                "sy": null,
-                "gain": null,
-                "phase": 0,
-                "phaseShift": 0,
-                "lengthDriver": "note",
-                "id": "b432c48a-f2d3-4d6e-a37d-15036eb17ce0"
-              },
-              "name": "Ui Oashee",
-              "gain": 0.5,
-              "state": "sustain",
-              "on": 0,
-              "off": 9007199254740991,
-              "attack": 1,
-              "release": 1,
-              "path": [],
-              "bus": "main",
-              "id": "9371e92c-9c17-4c41-ad60-232e06573e43"
-            },
-            {
-              "oscillator": {
-                "length": 0.00382225643297143,
-                "tempoSync": false,
-                "wave": {
-                  "points": [
-                    {
-                      "x": 0,
-                      "y": 0,
-                      "e": 1,
-                      "id": "02e78a33-ea54-45d8-8723-c497d89f77ef"
-                    },
-                    {
-                      "x": 0.5,
-                      "y": 1,
-                      "e": 1,
-                      "id": "e3f326fc-1c1c-4780-a902-bb3071ac811b"
-                    }
-                  ],
-                  "transformCenter": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "id": "61af0557-d4b3-40c8-a68a-59dfa4a36d24"
-                  },
-                  "transformScale": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "d5aa5119-7459-4a20-b49a-54b4fa0a0997"
-                  },
-                  "transformRange": {
-                    "x": 1,
-                    "y": 1,
-                    "id": "105610bf-b4e2-4306-9c20-c47ab679c9b6"
-                  },
-                  "e": 2.04,
-                  "quantizeX": 9007199254740991,
-                  "quantizeXThreshold": -1,
-                  "quantizeY": 9007199254740991,
-                  "quantizeYThreshold": 0,
-                  "gridX": 9007199254740991,
-                  "gridXThreshold": 0,
-                  "gridY": 9007199254740991,
-                  "gridYThreshold": 0,
-                  "viewZoom": 1,
-                  "viewPosition": 0,
-                  "id": "357b9400-383e-4cf3-9204-55c226741d71"
-                },
-                "fm": {
-                  "length": 19.2,
-                  "tempoSync": true,
-                  "wave": {
-                    "points": [
-                      {
-                        "x": 0.75,
-                        "y": 0.5833333333333334,
                         "e": 1,
-                        "id": "c59e660a-bb35-423b-95fc-1f22c49c0c80"
+                        "id": "1b915a2e-c042-487a-a739-7c7412414a22"
                       },
                       {
                         "x": 0.875,
-                        "y": 0.7083333333333334,
+                        "y": 0.3333333333333333,
                         "e": 1,
-                        "id": "ba6ba7c6-6269-4271-9895-29a5faeb751b"
-                      },
-                      {
-                        "x": 1,
-                        "y": 0.5833333333333334,
-                        "e": 1,
-                        "id": "14954657-46ab-4566-a820-2b51cf64ac31"
+                        "id": "408f7099-217f-4a16-803b-cdeee62855ee"
                       }
                     ],
                     "transformCenter": {
                       "x": 0.5,
                       "y": 0.5,
-                      "id": "b9d1cc70-b617-4635-a8c6-62969b52bba3"
+                      "id": "c9641e6c-fe81-4cb2-982c-dbbbef7cfb37"
                     },
                     "transformScale": {
                       "x": 1,
                       "y": 1,
-                      "id": "f2dc4871-99ec-4975-93f8-a77c5faf32d5"
+                      "id": "6d157bf1-b4f5-41e3-b027-9adc8e034e54"
                     },
                     "transformRange": {
                       "x": 1,
                       "y": 1,
-                      "id": "e16fbcbf-fd8c-4b37-861b-97556d70309b"
+                      "id": "1967ab8d-b5dd-47bd-8320-303a53680147"
                     },
-                    "e": 764.07,
+                    "e": 12.36,
                     "quantizeX": 9007199254740991,
                     "quantizeXThreshold": -1,
                     "quantizeY": 9007199254740991,
@@ -772,7 +126,7 @@ export default function defaultSession() {
                     "gridYThreshold": 0,
                     "viewZoom": 1,
                     "viewPosition": 0,
-                    "id": "75aade7e-ddd1-4ae2-a5dc-f8e30442ef4e"
+                    "id": "3da97525-3ef1-4b5a-b086-5aaf71cd2ca4"
                   },
                   "fm": null,
                   "fmRange": 2,
@@ -782,25 +136,233 @@ export default function defaultSession() {
                   "sx": null,
                   "sy": null,
                   "gain": null,
-                  "phase": 0,
+                  "phase": 0.08400000717669882,
                   "phaseShift": 0,
                   "lengthDriver": "bar",
-                  "id": "7cd0a301-c515-4ce3-82cb-01233f7635b0"
+                  "id": "a0f47199-6815-4f62-aa59-f797b3015638"
                 },
-                "fmRange": 2,
-                "transpose": null,
-                "am": null,
+                "am": {
+                  "length": 0.008580675569833577,
+                  "tempoSync": false,
+                  "wave": {
+                    "points": [
+                      {
+                        "x": 0.09621424981725091,
+                        "y": 0.9349161783854167,
+                        "e": 1,
+                        "id": "1826af14-239e-4b35-97f7-798cd1ff85cb"
+                      },
+                      {
+                        "x": 0.49813253837718596,
+                        "y": 0.7100626627604164,
+                        "e": 1,
+                        "id": "dbff0a40-1bb4-44ae-a58a-bfc9327f294e"
+                      }
+                    ],
+                    "transformCenter": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "id": "6fd22e1f-2235-4c25-9887-7e02d8194946"
+                    },
+                    "transformScale": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "a07414e1-5546-4a75-bd64-09d4de4f324e"
+                    },
+                    "transformRange": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "b3d70b33-5c45-4908-9320-01a74119b93f"
+                    },
+                    "e": 1.58,
+                    "quantizeX": 9007199254740991,
+                    "quantizeXThreshold": -1,
+                    "quantizeY": 9007199254740991,
+                    "quantizeYThreshold": 0,
+                    "gridX": 9007199254740991,
+                    "gridXThreshold": 0,
+                    "gridY": 9007199254740991,
+                    "gridYThreshold": 0,
+                    "viewZoom": 1,
+                    "viewPosition": 0,
+                    "id": "8769c52e-c8d2-4d03-ad58-42b53e0b0e34"
+                  },
+                  "fm": null,
+                  "fmRange": 2,
+                  "transpose": null,
+                  "am": null,
+                  "em": null,
+                  "sx": null,
+                  "sy": null,
+                  "gain": null,
+                  "phase": 0.2601776135782184,
+                  "phaseShift": 0,
+                  "lengthDriver": "note",
+                  "id": "946281d7-34d9-4235-8f19-5ac9e15c625c"
+                },
                 "em": null,
-                "sx": null,
+                "sx": {
+                  "length": 6,
+                  "tempoSync": true,
+                  "wave": {
+                    "points": [
+                      {
+                        "x": 0.23380105537280493,
+                        "y": 0.21830240885416655,
+                        "e": 1,
+                        "id": "9a57f8ea-e6f7-461b-9892-452bd3057304"
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 1,
+                        "e": 1,
+                        "id": "333aeb3f-ae40-43fd-834a-9838044f40a8"
+                      }
+                    ],
+                    "transformCenter": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "id": "6ec3fa3b-8449-45b2-b749-9c11042e6ed4"
+                    },
+                    "transformScale": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "825c41de-568e-4575-8108-a77631a6f9fc"
+                    },
+                    "transformRange": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "14c9f695-113f-4b52-8b7e-c14c8723c67b"
+                    },
+                    "e": 2.1,
+                    "quantizeX": 9007199254740991,
+                    "quantizeXThreshold": -1,
+                    "quantizeY": 9007199254740991,
+                    "quantizeYThreshold": 0,
+                    "gridX": 9007199254740991,
+                    "gridXThreshold": 0,
+                    "gridY": 9007199254740991,
+                    "gridYThreshold": 0,
+                    "viewZoom": 1,
+                    "viewPosition": 0,
+                    "id": "4767b60d-5757-4bcb-956a-b00fe990f9b6"
+                  },
+                  "fm": null,
+                  "fmRange": 2,
+                  "transpose": null,
+                  "am": null,
+                  "em": null,
+                  "sx": null,
+                  "sy": null,
+                  "gain": null,
+                  "phase": 0.12377777816751967,
+                  "phaseShift": 0,
+                  "lengthDriver": "bar",
+                  "id": "8ebd029a-f41d-4823-8f29-f05422255637"
+                },
                 "sy": null,
-                "gain": null,
-                "phase": 0,
+                "gain": {
+                  "length": 1,
+                  "tempoSync": true,
+                  "wave": {
+                    "points": [
+                      {
+                        "x": 0.125,
+                        "y": 0.98583984375,
+                        "e": 1,
+                        "id": "fe56c4cb-2b0b-4cfb-b6b3-6a6a3bc8d209"
+                      },
+                      {
+                        "x": 0.25,
+                        "y": 0.24572753906250003,
+                        "e": 1,
+                        "id": "44db29a8-2a76-41ae-8808-7da4b2c99fe2"
+                      },
+                      {
+                        "x": 0.375,
+                        "y": 0.8482055664062499,
+                        "e": 1,
+                        "id": "beb248f8-889c-4c40-bec5-11f87ad0afdf"
+                      },
+                      {
+                        "x": 0.5,
+                        "y": 0.396728515625,
+                        "e": 1,
+                        "id": "c943f547-e15e-4b42-885d-1ae10a3280a9"
+                      },
+                      {
+                        "x": 0.625,
+                        "y": 0.7316894531250001,
+                        "e": 1,
+                        "id": "d0c90f5b-58de-4912-b100-51b92bb730dc"
+                      },
+                      {
+                        "x": 0.75,
+                        "y": 0.4004923502604169,
+                        "e": 1,
+                        "id": "fa645dfc-77bb-4f99-9eb0-cc9af079144b"
+                      },
+                      {
+                        "x": 0.875,
+                        "y": 0.7283935546875002,
+                        "e": 1,
+                        "id": "632310a7-f7e3-488f-b66c-4091542ca30e"
+                      },
+                      {
+                        "x": 1,
+                        "y": 0.5404052734375001,
+                        "e": 1,
+                        "id": "8d6805c9-ee28-4796-9bdd-6472403a47c9"
+                      }
+                    ],
+                    "transformCenter": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "id": "3e85db44-e22e-4a3c-ab4b-e8b3c1e42086"
+                    },
+                    "transformScale": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "9d688c3b-6700-43af-890f-4c8d6218e600"
+                    },
+                    "transformRange": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "56193ee2-beb0-4563-a334-aec577cf6ead"
+                    },
+                    "e": 4.6000000000000005,
+                    "quantizeX": 9007199254740991,
+                    "quantizeXThreshold": -1,
+                    "quantizeY": 9007199254740991,
+                    "quantizeYThreshold": 0,
+                    "gridX": 8,
+                    "gridXThreshold": 0,
+                    "gridY": 9007199254740991,
+                    "gridYThreshold": 0,
+                    "viewZoom": 1,
+                    "viewPosition": 0,
+                    "id": "eec48d4c-5f0b-4a91-a24a-06b38a23ed55"
+                  },
+                  "fm": null,
+                  "fmRange": 2,
+                  "transpose": null,
+                  "am": null,
+                  "em": null,
+                  "sx": null,
+                  "sy": null,
+                  "gain": null,
+                  "phase": 0.7275470540291232,
+                  "phaseShift": 0,
+                  "lengthDriver": "fraction",
+                  "id": "693432e1-bcd1-4167-af5b-084f71fd0a44"
+                },
+                "phase": 0.040279354758238725,
                 "phaseShift": 0,
                 "lengthDriver": "note",
-                "id": "db6983ae-2b98-4c9b-bdae-997c0571986f"
+                "id": "c2b429f8-c1e6-43ab-9aa4-b297aa807103"
               },
-              "name": "Fy Beeglie",
-              "gain": 0.20559039346787694,
+              "name": "Dissonant Bass",
+              "gain": 0.5,
               "state": "sustain",
               "on": 0,
               "off": 9007199254740991,
@@ -808,26 +370,480 @@ export default function defaultSession() {
               "release": 1,
               "path": [],
               "bus": "main",
-              "id": "9ea83f45-d311-412e-af30-3405c55f64b3"
+              "id": "5ffc2320-53e9-497e-86c1-e0c0404e43b2"
             }
           ],
-          "gain": 0.4464749337823022,
+          "gain": 0.5,
           "activeVoice": "",
           "dynamics": {
-            "threshold": 0.3764375568593286,
-            "scale": 1.35474425467169,
-            "potential": 0.09332964124532447,
-            "id": "f2df0cad-6d71-474e-abec-7dec0d312aed"
+            "threshold": 0.6278709524642759,
+            "scale": 1.7519539998894051,
+            "potential": 0.3301895500535597,
+            "id": "88753dcf-0c30-43dc-894c-18f7fde289eb"
           },
-          "id": "0fcb027f-b166-4da3-8e98-d6daa136a163"
+          "id": "c330d384-3712-409a-a8bd-4cda68ea85b3"
+        },
+        {
+          "name": "Drums",
+          "state": "active",
+          "release": 0.1,
+          "voices": [
+            {
+              "oscillator": {
+                "length": 0.5,
+                "tempoSync": false,
+                "wave": {
+                  "points": [
+                    {
+                      "x": 0.002152133369727194,
+                      "y": 0.5093587239583336,
+                      "e": 1,
+                      "id": "46f97c8f-71db-4967-adbe-5c8e9c0dde81"
+                    },
+                    {
+                      "x": 0.004363969250365196,
+                      "y": 0.020487467447916657,
+                      "e": 1,
+                      "id": "2c025d55-b242-452d-beae-52653f01233a"
+                    },
+                    {
+                      "x": 0.0076845660480378,
+                      "y": 1,
+                      "e": 1,
+                      "id": "f3f1167d-0414-47cc-bbe2-817773561f89"
+                    },
+                    {
+                      "x": 0.013708833697235301,
+                      "y": 0.09077962239583333,
+                      "e": 1,
+                      "id": "66e36b8d-e760-490c-9eff-9f595bc64390"
+                    },
+                    {
+                      "x": 0.019650655021836938,
+                      "y": 0.9275105794270831,
+                      "e": 1,
+                      "id": "eaa57601-7a71-4195-8f88-72539cbd9572"
+                    },
+                    {
+                      "x": 0.028509370451240246,
+                      "y": 0.21500651041666646,
+                      "e": 1,
+                      "id": "0e7d47a7-51ce-4cef-a2cd-e41be9f28fde"
+                    },
+                    {
+                      "x": 0.04039585607715046,
+                      "y": 0.8047485351562498,
+                      "e": 1,
+                      "id": "612f20cf-230c-4f02-82a0-fa9244586b12"
+                    },
+                    {
+                      "x": 0.055244723435227794,
+                      "y": 0.06205240885416651,
+                      "e": 1,
+                      "id": "5ab012c1-e190-457d-be54-085f45a81acc"
+                    },
+                    {
+                      "x": 0.06814615174672878,
+                      "y": 0.9129638671874999,
+                      "e": 1,
+                      "id": "ebd8159d-d779-4de0-95bc-78a22ca56521"
+                    },
+                    {
+                      "x": 0.08730781477438398,
+                      "y": 0.11832682291666682,
+                      "e": 1,
+                      "id": "f843e633-68bc-417d-be42-de5a3fb01d5f"
+                    },
+                    {
+                      "x": 0.10563648562591332,
+                      "y": 0.9278564453124997,
+                      "e": 1,
+                      "id": "afdf1d10-1d0b-4cbd-b748-1429641d19c2"
+                    },
+                    {
+                      "x": 0.14473878729985978,
+                      "y": 0.22444661458333337,
+                      "e": 1,
+                      "id": "348b8c58-d0ca-4a3e-9c88-aa800e11d43e"
+                    },
+                    {
+                      "x": 0.1978825509461437,
+                      "y": 0.8022867838541667,
+                      "e": 1,
+                      "id": "ad3664bb-301a-4475-a993-9ce82765de26"
+                    },
+                    {
+                      "x": 0.2951095114628819,
+                      "y": 0.49418131510416674,
+                      "e": 1,
+                      "id": "2b26a9e9-9c91-4a83-ad93-e7d3f19bfc37"
+                    }
+                  ],
+                  "transformCenter": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "id": "9625fd5e-c624-46ac-8586-7eeb053b8b64"
+                  },
+                  "transformScale": {
+                    "x": 1,
+                    "y": 1,
+                    "id": "93219e0b-b67e-42bd-9ee8-f2b924ba608b"
+                  },
+                  "transformRange": {
+                    "x": 1,
+                    "y": 1,
+                    "id": "87199521-b55d-4e51-8fa5-6b8c3260a7e4"
+                  },
+                  "e": 2.49,
+                  "quantizeX": 9007199254740991,
+                  "quantizeXThreshold": -1,
+                  "quantizeY": 9007199254740991,
+                  "quantizeYThreshold": 0,
+                  "gridX": 9007199254740991,
+                  "gridXThreshold": 0,
+                  "gridY": 9007199254740991,
+                  "gridYThreshold": 0,
+                  "viewZoom": 1,
+                  "viewPosition": 0,
+                  "id": "1bc08412-293b-447c-b2d7-eb0eb11d3e17"
+                },
+                "fm": null,
+                "fmRange": 2,
+                "transpose": null,
+                "am": null,
+                "em": null,
+                "sx": null,
+                "sy": null,
+                "gain": null,
+                "phase": 0.17333333406736673,
+                "phaseShift": 0,
+                "lengthDriver": "fraction",
+                "id": "8bd76bcd-ea3f-4820-ac3a-012165be9ed0"
+              },
+              "name": "Kick",
+              "gain": 0.5,
+              "state": "sustain",
+              "on": 0,
+              "off": 9007199254740991,
+              "attack": 1,
+              "release": 1,
+              "path": [],
+              "bus": "main",
+              "id": "251770f6-5901-433d-9858-455f7221ab56"
+            }
+          ],
+          "gain": 0.85,
+          "activeVoice": "",
+          "dynamics": {
+            "threshold": 0.49757447078173866,
+            "scale": 0.3437167210255043,
+            "potential": 0.44858339337825626,
+            "id": "e3cc9078-1b2e-4bd7-b546-ad03fd813410"
+          },
+          "id": "0f4d7220-d790-43ea-afa4-18f37d1cd0a3"
+        },
+        {
+          "name": "Percussion",
+          "state": "active",
+          "release": 0.1,
+          "voices": [
+            {
+              "oscillator": {
+                "length": 0.125,
+                "tempoSync": false,
+                "wave": {
+                  "points": [
+                    {
+                      "x": 0,
+                      "y": 0,
+                      "e": 1,
+                      "id": "bae81838-2689-40c0-ad09-9326ec522671"
+                    },
+                    {
+                      "x": 0.0030647288937413197,
+                      "y": 0.9578857421875,
+                      "e": 1,
+                      "id": "15b81f2f-a034-4e2a-a4a2-06536870426d"
+                    },
+                    {
+                      "x": 0.009640733531883994,
+                      "y": 0.163818359375,
+                      "e": 1,
+                      "id": "d86f9149-4b7b-4da7-a3be-3eee09ac5647"
+                    },
+                    {
+                      "x": 0.012702419941776233,
+                      "y": 0.9306844075520831,
+                      "e": 1,
+                      "id": "15d23f40-b849-43aa-a2e7-465c142e8349"
+                    },
+                    {
+                      "x": 0.0182177947598261,
+                      "y": 0.10978190104166662,
+                      "e": 1,
+                      "id": "3676dbfb-8343-4ace-acbe-f788c8a3e86c"
+                    },
+                    {
+                      "x": 0.02367346706695872,
+                      "y": 0.8718465169270834,
+                      "e": 1,
+                      "id": "81713cb0-492d-4332-b887-a124aa675965"
+                    },
+                    {
+                      "x": 0.02780564643105743,
+                      "y": 0.22265625000000006,
+                      "e": 1,
+                      "id": "8b36b4b5-907d-4c10-8464-44f826f83fbb"
+                    },
+                    {
+                      "x": 0.031144710108148788,
+                      "y": 0.9299316406250001,
+                      "e": 1,
+                      "id": "b6b79e0b-61c7-4e1d-8d1b-3c68e34624ba"
+                    },
+                    {
+                      "x": 0.035450074136853305,
+                      "y": 0.12674967447916682,
+                      "e": 1,
+                      "id": "92bb847d-ea28-4b0b-8d05-c9fcb485e5ff"
+                    },
+                    {
+                      "x": 0.04004969872427333,
+                      "y": 0.8697916666666667,
+                      "e": 1,
+                      "id": "4e27ee97-def8-49f6-9e0e-115690b21eef"
+                    },
+                    {
+                      "x": 0.043474862200419295,
+                      "y": 0.1931355794270833,
+                      "e": 1,
+                      "id": "11b664e9-3f6a-473f-b502-a9274d161511"
+                    },
+                    {
+                      "x": 0.04704481798165916,
+                      "y": 0.82647705078125,
+                      "e": 1,
+                      "id": "9b419124-0cfd-4f6f-8d09-ac9a946afe21"
+                    },
+                    {
+                      "x": 0.05121349468273473,
+                      "y": 0.21423339843749992,
+                      "e": 1,
+                      "id": "061d25cc-d720-4160-83fc-31a8efc1192c"
+                    },
+                    {
+                      "x": 0.05497833152978715,
+                      "y": 0.7393595377604166,
+                      "e": 1,
+                      "id": "7249fb20-a281-452e-9fa4-07d0f7e88bf6"
+                    },
+                    {
+                      "x": 0.0664462262426897,
+                      "y": 0.3058064778645834,
+                      "e": 1,
+                      "id": "4d0b8ffa-7546-488e-9c80-5d2519f4f96c"
+                    },
+                    {
+                      "x": 0.07963838633040932,
+                      "y": 0.7187500000000004,
+                      "e": 1,
+                      "id": "2da61456-63bd-4a30-8252-c3f98129d44c"
+                    },
+                    {
+                      "x": 0.09661972313596578,
+                      "y": 0.24027506510416669,
+                      "e": 1,
+                      "id": "64ea6c09-76bf-4b33-af6f-f666a30b92ef"
+                    },
+                    {
+                      "x": 0.10586280153508731,
+                      "y": 0.7040405273437499,
+                      "e": 1,
+                      "id": "6a28333d-cc5b-42d1-afd0-13bc0280422e"
+                    },
+                    {
+                      "x": 0.12106156700487136,
+                      "y": 0.37099202473958337,
+                      "e": 1,
+                      "id": "a400d4de-54ba-47f7-9f3d-b1e4e7cf7153"
+                    },
+                    {
+                      "x": 0.13861096297706177,
+                      "y": 0.6685384114583328,
+                      "e": 1,
+                      "id": "0a5099d7-79da-4334-961e-cf16ae3c13cf"
+                    },
+                    {
+                      "x": 0.15007888262835456,
+                      "y": 0.3345133463541667,
+                      "e": 1,
+                      "id": "50be25e9-42f2-4dae-83c9-6f548faeac4c"
+                    },
+                    {
+                      "x": 0.16298770517314032,
+                      "y": 0.6611328124999999,
+                      "e": 1,
+                      "id": "3ac4474f-f57d-4a9a-9406-0f0bbdf12033"
+                    },
+                    {
+                      "x": 0.1800511391658044,
+                      "y": 0.36110432942708315,
+                      "e": 1,
+                      "id": "e4133138-8ff2-447d-9e9d-99654dc6e583"
+                    },
+                    {
+                      "x": 0.1982872262363078,
+                      "y": 0.5028483072916667,
+                      "e": 1,
+                      "id": "a865c0eb-ca93-44a7-a1b3-e53b2c51ef9c"
+                    },
+                    {
+                      "x": 0.9990817185225633,
+                      "y": 0.5007934570312498,
+                      "e": 1,
+                      "id": "7d47a79d-4c7b-44e0-8ba7-e5fcb982e1cd"
+                    }
+                  ],
+                  "transformCenter": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "id": "7486bbbd-f480-4d1a-9809-28dde48f7b4f"
+                  },
+                  "transformScale": {
+                    "x": 1,
+                    "y": 1,
+                    "id": "f25d6577-1e55-4b6f-9ec3-ecd348e7cc11"
+                  },
+                  "transformRange": {
+                    "x": 1,
+                    "y": 1,
+                    "id": "92f3bbe8-6973-44f6-a15c-e654c945f82e"
+                  },
+                  "e": 0.89,
+                  "quantizeX": 9007199254740991,
+                  "quantizeXThreshold": -1,
+                  "quantizeY": 9007199254740991,
+                  "quantizeYThreshold": 0,
+                  "gridX": 9007199254740991,
+                  "gridXThreshold": 0,
+                  "gridY": 9007199254740991,
+                  "gridYThreshold": 0,
+                  "viewZoom": 1,
+                  "viewPosition": 0,
+                  "id": "7a36c110-2d77-4c20-bee7-c7a295349df5"
+                },
+                "fm": null,
+                "fmRange": 2,
+                "transpose": null,
+                "am": null,
+                "em": null,
+                "sx": null,
+                "sy": null,
+                "gain": {
+                  "length": 2,
+                  "tempoSync": true,
+                  "wave": {
+                    "points": [
+                      {
+                        "x": 0.005608095760232912,
+                        "y": 1,
+                        "e": 1,
+                        "id": "0c76b75e-beb8-45e7-b156-9e115dea2105"
+                      },
+                      {
+                        "x": 0.42550141630116745,
+                        "y": 0.28908284505208326,
+                        "e": 1,
+                        "id": "223b7c23-95bd-4bb0-92d7-17b895e91382"
+                      },
+                      {
+                        "x": 0.6213278965643276,
+                        "y": 0.8291829427083334,
+                        "e": 1,
+                        "id": "f7581e91-4532-4410-8018-69e068be2afe"
+                      },
+                      {
+                        "x": 0.7475643046418115,
+                        "y": 0.13745117187500025,
+                        "e": 1,
+                        "id": "af47f956-387c-487d-b8af-66b5c1da31e8"
+                      }
+                    ],
+                    "transformCenter": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "id": "b357297f-3e23-475c-a36f-51726a743a50"
+                    },
+                    "transformScale": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "5721c0ad-93fe-47c6-9935-23f3d5e874f7"
+                    },
+                    "transformRange": {
+                      "x": 1,
+                      "y": 1,
+                      "id": "dcd9f57d-1d9b-4ae7-9380-0b3a4343156f"
+                    },
+                    "e": 1.73,
+                    "quantizeX": 9007199254740991,
+                    "quantizeXThreshold": -1,
+                    "quantizeY": 9007199254740991,
+                    "quantizeYThreshold": 0,
+                    "gridX": 9007199254740991,
+                    "gridXThreshold": 0,
+                    "gridY": 9007199254740991,
+                    "gridYThreshold": 0,
+                    "viewZoom": 1,
+                    "viewPosition": 0,
+                    "id": "b09f2f5a-d526-4137-9359-cd5fba18d1b0"
+                  },
+                  "fm": null,
+                  "fmRange": 2,
+                  "transpose": null,
+                  "am": null,
+                  "em": null,
+                  "sx": null,
+                  "sy": null,
+                  "gain": null,
+                  "phase": 0.2813333335154196,
+                  "phaseShift": 0,
+                  "lengthDriver": "bar",
+                  "id": "69edf2d4-38b8-4519-94a6-2a171ecb9e96"
+                },
+                "phase": 0.501333333121575,
+                "phaseShift": 0,
+                "lengthDriver": "fraction",
+                "id": "74cc9f23-81ed-417f-987c-0bef8c921b02"
+              },
+              "name": "Ride",
+              "gain": 0.5,
+              "state": "sustain",
+              "on": 0,
+              "off": 9007199254740991,
+              "attack": 1,
+              "release": 1,
+              "path": [],
+              "bus": "main",
+              "id": "edb38318-8395-4160-b23a-01149f9b7272"
+            }
+          ],
+          "gain": 0.175,
+          "activeVoice": "",
+          "dynamics": {
+            "threshold": 0.5,
+            "scale": 2.3056086588681546,
+            "potential": 0.2323878078929218,
+            "id": "a3978940-6894-4c9c-b6d2-d0e9e8b72d5e"
+          },
+          "id": "63f8a025-fc1c-4813-85d9-d250d8ee1dbc"
         }
       ],
       "channelMix": {
-        "x": 0.391357421875,
-        "y": 0.1821136474609375,
-        "id": "5a92a719-197c-4c20-83af-c14e2e47d45b"
+        "x": -0.00390625,
+        "y": 0.05022321428571429,
+        "id": "194d6029-03bd-4071-97a3-dc4e4bbcb429"
       },
-      "main": 0.5327539890264091,
+      "main": 0.75,
       "potential": 0.33,
       "mute": false,
       "activeChannel": "",
@@ -838,13 +854,13 @@ export default function defaultSession() {
         "increment": 1,
         "subdivisions": 12,
         "startDriver": "note",
-        "id": "967b0c80-66c8-40fa-8864-5f87f342d3d2"
+        "id": "e113dff4-50bd-4b3a-bd3a-a7bc12c0ced2"
       },
       "showKeyboardSettings": true,
       "settings": {
-        "tempo": 0.4166666666666667,
+        "tempo": 0.5,
         "tempoDriver": "bpm",
-        "id": "d6441151-393b-4e5d-9927-1381521615c1"
+        "id": "22daefdb-6b11-4f9e-9618-6825283c9d8a"
       },
       "defaults": {
         "voice": {
@@ -857,29 +873,29 @@ export default function defaultSession() {
                   "x": 0,
                   "y": 0,
                   "e": 1,
-                  "id": "97666f93-2662-4e1b-98ac-ac4666f42ee9"
+                  "id": "4b12b1f1-1f91-47b1-b39d-dcb21d307ed8"
                 },
                 {
                   "x": 0.5,
                   "y": 1,
                   "e": 1,
-                  "id": "0aeac999-1782-4724-96eb-b1cc52ed6b3b"
+                  "id": "68d1073b-9ca2-4d8a-9ef0-02fb22f57cdc"
                 }
               ],
               "transformCenter": {
                 "x": 0.5,
                 "y": 0.5,
-                "id": "03f442e2-0199-43a4-b919-b8967ab64b01"
+                "id": "aa646963-963a-40cf-94a6-8d3cd0cce899"
               },
               "transformScale": {
                 "x": 1,
                 "y": 1,
-                "id": "f27e6f85-39bb-483f-ba6d-00c30fbd2925"
+                "id": "e11e5655-b338-4e22-8bcd-c10bf1c0d533"
               },
               "transformRange": {
                 "x": 1,
                 "y": 1,
-                "id": "1ebdffa1-71bd-465b-a6c9-007461d034ef"
+                "id": "f850d6d6-bf87-4ceb-b42a-048ac79bdf50"
               },
               "e": 1,
               "quantizeX": 9007199254740991,
@@ -892,7 +908,7 @@ export default function defaultSession() {
               "gridYThreshold": 0,
               "viewZoom": 1,
               "viewPosition": 0,
-              "id": "82345695-05f5-413e-ad73-739fee387e0c"
+              "id": "5e1ef3af-ff77-4faa-b258-5f15f0d8aa1b"
             },
             "fm": null,
             "fmRange": 2,
@@ -905,9 +921,9 @@ export default function defaultSession() {
             "phase": 0,
             "phaseShift": 0,
             "lengthDriver": "note",
-            "id": "bdf99b30-d15f-4b70-be10-3c5410c2bbf6"
+            "id": "672f1199-b4a1-4512-b0a6-25c8ec5c783c"
           },
-          "name": "Eysquooz",
+          "name": "Percussion",
           "gain": 0.5,
           "state": "idle",
           "on": 0,
@@ -916,7 +932,7 @@ export default function defaultSession() {
           "release": 1,
           "path": [],
           "bus": "main",
-          "id": "03aa2d3f-25af-481f-add0-e7db23dfb03a"
+          "id": "4bce9196-675a-41a7-b4b6-b9dc27a2a83f"
         },
         "am": {
           "length": 0.00909090909090909,
@@ -927,23 +943,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 1,
                 "e": 1,
-                "id": "96d39558-fcd6-447f-b2dc-316b167dfb33"
+                "id": "8b88db61-c510-4456-b1e1-347f2c6d7fdb"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "715967ca-46e4-457d-a52a-99121688c936"
+              "id": "7aeaee58-5937-4f1c-8856-1eeeb3ffaea1"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "430e4279-4f9e-4893-b9b1-15984b3ecc83"
+              "id": "5ed02c20-c495-4c90-b18d-aae1e06ea2ba"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "4b0eb2dc-fb36-46f4-a9a6-e499d0d5c500"
+              "id": "c1047353-3bed-47fe-8305-be51993d4357"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -956,7 +972,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "5b540d28-1f14-4e31-9440-668256629f54"
+            "id": "eb3f928f-d45d-48bb-abc7-e58476bb8f38"
           },
           "fm": null,
           "fmRange": 2,
@@ -969,10 +985,10 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "note",
-          "id": "ba07b507-b56e-4e99-8ee9-42c38d7e6e6d"
+          "id": "33c0e0b7-19fd-4330-8c3d-06b374b7d5b8"
         },
         "fm": {
-          "length": 2.559999999999999,
+          "length": 2,
           "tempoSync": true,
           "wave": {
             "points": [
@@ -980,23 +996,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 0.5,
                 "e": 1,
-                "id": "0e4988c9-b7fa-476e-b2ef-1b9316a18fe4"
+                "id": "22d41b2f-7ef6-4996-838e-c50b180db008"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "383fa204-c078-4766-aa39-50cb0e501657"
+              "id": "2af50f92-70b8-4a86-a5b0-19f4a9faf510"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "73cac1dc-3b85-4f7e-bc0c-25237a2e0d2b"
+              "id": "24db4ec6-2740-4e39-9f93-c437fe9fb53e"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "09c90b7a-c840-4faf-b404-50b6ce45f92f"
+              "id": "4366fbec-043e-4d94-a2a6-512ccece19ca"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -1009,7 +1025,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "bb68cafd-6400-4581-aa7f-ea4ad13dcbb8"
+            "id": "4a39a9a3-b0ea-444b-b225-db480f3128e6"
           },
           "fm": null,
           "fmRange": 2,
@@ -1022,10 +1038,10 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "bar",
-          "id": "695e06be-163e-43e5-8ff2-fa015496935e"
+          "id": "719e226c-ff14-4c93-97f2-26f3608dc297"
         },
         "gain": {
-          "length": 2.559999999999999,
+          "length": 2,
           "tempoSync": true,
           "wave": {
             "points": [
@@ -1033,23 +1049,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 1,
                 "e": 1,
-                "id": "8bf671f3-5911-4d00-9c60-04ce410b5e55"
+                "id": "25fbb14a-f0da-4322-a153-c55f3e7b7304"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "ca3176b1-d13c-4449-bdcb-ace966fb0137"
+              "id": "8182a2a9-281d-49e3-983b-33e71bad19bb"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "fb4444e3-9024-4bb0-9a0d-9f1221c6518d"
+              "id": "0c924ee9-2846-4aa2-b20c-ff665be0ce99"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "c9257aae-ea03-4a9c-82d0-d5aba8f7f60f"
+              "id": "25d39654-f121-415b-a7eb-6b3a8b0e8f78"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -1062,7 +1078,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "9e5fc09d-f5d0-44aa-abbc-db8e86024fe6"
+            "id": "69b91f23-17c2-4151-b4b6-a8da9841a3bb"
           },
           "fm": null,
           "fmRange": 2,
@@ -1075,10 +1091,10 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "fraction",
-          "id": "b74eff92-2818-431e-b4da-2b3f44bf8d5a"
+          "id": "51d764d4-cb9c-4cef-94b1-c0e3936f2ded"
         },
         "em": {
-          "length": 2.559999999999999,
+          "length": 2,
           "tempoSync": true,
           "wave": {
             "points": [
@@ -1086,23 +1102,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 1,
                 "e": 1,
-                "id": "ddccc59b-c5f9-4c99-8034-aaffe92890b0"
+                "id": "608a0ddb-250f-49c4-a7ec-8312378f6b77"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "5dc449fa-1a01-43fe-a8a1-d3660ed93fd6"
+              "id": "065e7a29-593d-496c-9db3-85967e210de6"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "c5bd02a5-e732-4414-befc-2b84fba41319"
+              "id": "d24c5e6b-5b24-4cb6-bd2c-4e107700d541"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "d7d81706-696f-468b-a08d-c2f18a2f7d48"
+              "id": "155536c2-845e-46bb-9734-5ac1c2de8b46"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -1115,7 +1131,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "d3826b07-1a60-447b-a729-5ae679516b5e"
+            "id": "6a9cdd29-1aad-492b-b73b-3274eb61b08d"
           },
           "fm": null,
           "fmRange": 2,
@@ -1128,10 +1144,10 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "fraction",
-          "id": "ccf28988-1159-465d-81c5-294686266f34"
+          "id": "a07e086e-f229-451b-a0d7-e066c5c5dc15"
         },
         "sx": {
-          "length": 2.559999999999999,
+          "length": 2,
           "tempoSync": true,
           "wave": {
             "points": [
@@ -1139,23 +1155,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 1,
                 "e": 1,
-                "id": "d9d9adda-4f6e-4ea1-9f05-daf44bf0af5b"
+                "id": "60cfb587-7291-419d-a832-ed9315b9b569"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "9397d5d5-3347-4272-bbf5-2615b36bbe6d"
+              "id": "b627046e-2051-4083-b181-a0ecf05d9c12"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "f4997359-7cda-4387-9f41-f8788b0c3cdd"
+              "id": "06e25508-85ca-4ff0-8825-7f0d784a9672"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "81cd5804-8fef-4509-bbd2-93f302d36674"
+              "id": "945a9928-555b-4a1b-9c68-da03432eeb08"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -1168,7 +1184,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "99d91df9-5718-451a-94aa-d18be9d02346"
+            "id": "a5db6eb2-9b66-42cd-8717-86c6264dac45"
           },
           "fm": null,
           "fmRange": 2,
@@ -1181,10 +1197,10 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "fraction",
-          "id": "3fa6d0bd-f9c8-44b5-a510-f9872abef406"
+          "id": "2fb40f41-f292-44a3-876e-7b02b891285a"
         },
         "transpose": {
-          "length": 2.559999999999999,
+          "length": 2,
           "tempoSync": true,
           "wave": {
             "points": [
@@ -1192,23 +1208,23 @@ export default function defaultSession() {
                 "x": 0.5,
                 "y": 0.5,
                 "e": 1,
-                "id": "29161cd9-b6dc-4c24-8d59-5faefcd82262"
+                "id": "388d36dc-b134-4d28-b637-f3dd18142c54"
               }
             ],
             "transformCenter": {
               "x": 0.5,
               "y": 0.5,
-              "id": "8ba68d9f-cd3d-47e0-81b3-82516fc2f971"
+              "id": "1a2347a6-7a97-4944-aff9-3da9c5aa1fb1"
             },
             "transformScale": {
               "x": 1,
               "y": 1,
-              "id": "2e05de32-4ab7-4286-9f39-4d97f56fb920"
+              "id": "17a80879-81f2-43dd-9eb2-13dc0eab5d66"
             },
             "transformRange": {
               "x": 1,
               "y": 1,
-              "id": "80e796f3-e869-4738-b7dc-a0f5205d39bf"
+              "id": "68676578-def2-42bd-afa6-3e3bc8a58bff"
             },
             "e": 1,
             "quantizeX": 9007199254740991,
@@ -1221,7 +1237,7 @@ export default function defaultSession() {
             "gridYThreshold": 0,
             "viewZoom": 1,
             "viewPosition": 0,
-            "id": "7da16428-5338-4003-ba12-5e2e4b227ec7"
+            "id": "abe6d6e4-f030-4276-8e34-723ce1f72679"
           },
           "fm": null,
           "fmRange": 2,
@@ -1234,100 +1250,21 @@ export default function defaultSession() {
           "phase": 0,
           "phaseShift": 0,
           "lengthDriver": "fraction",
-          "id": "3e35417f-f955-4293-8120-b0fe26e801bb"
+          "id": "f9f5e47d-eaaf-4ce2-a4a2-564365764125"
         },
-        "id": "6e0880eb-80d6-4814-851e-6aee063a0a44"
+        "id": "ea3ce475-bcb6-41b9-bb56-d9102f92766c"
       },
       "navigationMode": "siblings",
-      "created": 1708897287648,
+      "created": 1724922631220,
       "state": "playing",
       "keyboardFocus": [
-        "0fcb027f-b166-4da3-8e98-d6daa136a163",
-        "9ea83f45-d311-412e-af30-3405c55f64b3"
+        "c330d384-3712-409a-a8bd-4cda68ea85b3",
+        "5ffc2320-53e9-497e-86c1-e0c0404e43b2"
       ],
-      "id": "41f3622c-416e-471e-bd34-6205755f00b5",
+      "id": "5c07aa28-dd80-4866-8f24-f5a0cc01781a",
       "tree": {
         "type": "session",
         "branches": [
-          {
-            "type": "channel",
-            "branches": [
-              {
-                "type": "voice",
-                "branches": [
-                  {
-                    "type": "am",
-                    "branches": [],
-                    "span": 1,
-                    "depth": 1
-                  }
-                ],
-                "span": 1,
-                "depth": 2
-              },
-              {
-                "type": "voice",
-                "branches": [
-                  {
-                    "type": "am",
-                    "branches": [],
-                    "span": 1,
-                    "depth": 1
-                  },
-                  {
-                    "type": "gain",
-                    "branches": [],
-                    "span": 1,
-                    "depth": 1
-                  }
-                ],
-                "span": 2,
-                "depth": 2
-              }
-            ],
-            "span": 3,
-            "depth": 3
-          },
-          {
-            "type": "channel",
-            "branches": [
-              {
-                "type": "voice",
-                "branches": [
-                  {
-                    "type": "em",
-                    "branches": [
-                      {
-                        "type": "gain",
-                        "branches": [],
-                        "span": 1,
-                        "depth": 1
-                      }
-                    ],
-                    "span": 1,
-                    "depth": 2
-                  }
-                ],
-                "span": 1,
-                "depth": 3
-              },
-              {
-                "type": "voice",
-                "branches": [
-                  {
-                    "type": "fm",
-                    "branches": [],
-                    "span": 1,
-                    "depth": 1
-                  }
-                ],
-                "span": 1,
-                "depth": 2
-              }
-            ],
-            "span": 2,
-            "depth": 4
-          },
           {
             "type": "channel",
             "branches": [
@@ -1347,37 +1284,63 @@ export default function defaultSession() {
                     "depth": 1
                   },
                   {
-                    "type": "em",
+                    "type": "sx",
                     "branches": [],
                     "span": 1,
                     "depth": 1
                   },
                   {
                     "type": "gain",
-                    "branches": [
-                      {
-                        "type": "gain",
-                        "branches": [],
-                        "span": 1,
-                        "depth": 1
-                      }
-                    ],
+                    "branches": [],
                     "span": 1,
-                    "depth": 2
+                    "depth": 1
                   }
                 ],
                 "span": 4,
-                "depth": 3
+                "depth": 2
               }
             ],
             "span": 4,
-            "depth": 4
+            "depth": 3
+          },
+          {
+            "type": "channel",
+            "branches": [
+              {
+                "type": "voice",
+                "branches": [],
+                "span": 1,
+                "depth": 1
+              }
+            ],
+            "span": 1,
+            "depth": 2
+          },
+          {
+            "type": "channel",
+            "branches": [
+              {
+                "type": "voice",
+                "branches": [
+                  {
+                    "type": "gain",
+                    "branches": [],
+                    "span": 1,
+                    "depth": 1
+                  }
+                ],
+                "span": 1,
+                "depth": 2
+              }
+            ],
+            "span": 1,
+            "depth": 3
           }
         ],
-        "span": 9,
-        "depth": 5
+        "span": 6,
+        "depth": 4
       },
-      "changed": 1708958163709
+      "changed": 1724941322151
     }
 
 }
